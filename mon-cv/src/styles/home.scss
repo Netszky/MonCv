@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: black;
+}
+.homeLabel span{
+    color: #fff;
+    text-shadow: 4px 8px 2px rgba(0,0,0,0.6);
+    padding: 3px;
+}
+
+.homeLabel span.active {
+    animation: smoke 2s ease-in forwards;
+}
+ @keyframes smoke {
+     0% {
+         opacity: 1;
+     } 100% {
+         opacity: 0;
+     }
+ }
