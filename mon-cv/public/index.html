@@ -19,7 +19,14 @@
     const text = document.querySelector('.homeLabel');
     text.innerHTML = text.textContent.replace(/\S/g, "<span>$&</span>");
     const letters = document.querySelectorAll('span');
-
+    setTimeout(() => {
+      
+    }, 1000);
+    for (let i = 0; i<letters.length; i++){
+      setTimeout(() => {
+        letters[i].classList.add('appearLabel');
+      }, i * 1000);
+    }
     setTimeout(() => {
       for (let i = 0; i<letters.length; i++){
       setTimeout(() => {

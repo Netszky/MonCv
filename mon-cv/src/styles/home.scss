@@ -10,6 +10,17 @@
     text-shadow: 4px 8px 2px rgba(0,0,0,0.6);
     padding: 3px;
 }
+.homeLabel .appearLabel {
+    animation: appear 2s ease-in forwards;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    } 100% {
+        opacity: 1;
+    }
+}
 
 .homeLabel span.active {
     animation: smoke 2s ease-in forwards;
