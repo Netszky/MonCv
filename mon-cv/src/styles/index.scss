@@ -1,9 +1,15 @@
 @import "settings.scss";
 @import "home.scss";
+@import "nav.scss";
+@import "Tictac.scss";
 
 #root {
     height: 100%;
 }
 .App {
     height: 100%;
+}
+.btn-primary {
+    border-radius: 25px;
+    border: black;
 }
