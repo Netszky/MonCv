@@ -1,8 +1,9 @@
 import React from 'react';
-import { BrowserRouter,Switch,Route, useRouteMatch, Link } from "react-router-dom";
+import {Route, Link } from "react-router-dom";
+import Flappy from '../Flappy/Flappy';
 import Navigation from '../Navigation';
 import TicTac from '../Titactoe/TicTac';
-import Flappy from './Flappy/Flappy';
+
 
 const Game = () => {
     return (

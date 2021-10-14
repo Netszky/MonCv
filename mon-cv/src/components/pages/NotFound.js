@@ -5,6 +5,7 @@ const NotFound = () => {
     return (
         <div>
             <Navigation></Navigation>
+            4 04 
         </div>
     );
 };
