@@ -6,6 +6,7 @@ import TicTac from './components/Titactoe/TicTac';
 import Informations from './components/pages/Informations';
 import Contact from './components/pages/Contact';
 import PortFolio from './components/pages/PortFolio';
+import Game from './components/pages/Game';
 
 function App() {
   return (
@@ -13,7 +14,9 @@ function App() {
       <BrowserRouter>
         <Switch>
           <Route path="/" exact component={Home}/>
-          <Route path="/game" exact component={TicTac}/>
+          <Route path="/game">
+            <Game></Game>
+          </Route>
           <Route path="/informations" exact component={Informations}/>
           <Route path="/portfolio" exact component={PortFolio}/>
           <Route path="/contact" exact component={Contact}/>
